@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<wbstatspec type="handheld" version="4.3" release="1">
+	<handheld name="Nokia"
+			  pattern="(nokia)" 			patternver="%n[/\ ]?([en\d]{3,4}[i]?)" />
+	<handheld name="Siemens"
+			  pattern="(\bsie)" 			patternver="\bsie[/\- ]?(\w+)" />
+	<handheld name="LG"
+			  pattern="(lg)" 				patternver="%n[/\- ]?(\w+)" />
+	<handheld name="Sagem"
+			  pattern="(sagem)" 			patternver="%n[/\- ]?(\w+)" />
+	<handheld name="Sony Ericsson"
+			  pattern="(sonyericsson)" 		patternver="%n[/\- ]?(\w+)" />
+	<handheld name="Panasonic"
+			  pattern="(panasonic)" 		patternver="%n[/\- ]?(\w+)" />
+	<handheld name="Motorola"
+			  pattern="(\bmot(?:orola)?\b)" patternver="%n[/\- ]?(\w+)" />
+	<handheld name="Alcatel"
+			  pattern="(alcatel)" 			patternver="()" />
+	<handheld name="iPhone"
+			  pattern="(iphone)" 			patternver="()" />
+	<handheld name="iPod"
+			  pattern="(ipod)" 				patternver="()" />
+	<handheld name="iPad"
+			  pattern="(ipad)" 				patternver="()" />
+	<handheld name="Kindle"
+			  pattern="(kindle)"			patternver="%n\/(\d+\.\d+)" />
+	<handheld name="Nexus ONE"
+			  pattern="(nexus one)"			patternver="()" />
+	<handheld name="HTC Desire"
+			  pattern="(\b(?:htc[ _]?)?desire\b)"		patternver="()" />
+</wbstatspec>

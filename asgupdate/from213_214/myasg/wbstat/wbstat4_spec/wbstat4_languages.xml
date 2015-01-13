@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<wbstatspec type="language" version="4.1" release="3">
+	<language name="Italiano" pattern="(it|ch)"/>
+	<language name="Inglese" pattern="(gb|br|en|us|ga|gd|cy|ie)"/>
+	<language name="Francese" pattern="(fr|gl|co)"/>
+	<language name="Tedesco" pattern="(de|ge|af|fo|fy|is)"/>
+	<language name="Spagnolo" pattern="(es)"/>
+	<language name="Catalano" pattern="(ca)"/>
+	<language name="Portoghese" pattern="(pt|br)"/>
+	<language name="Slovacco" pattern="(sk)"/>
+	<language name="Bulgaro" pattern="(bg)"/>
+	<language name="Croato" pattern="(hr)"/>
+	<language name="Ceco" pattern="(cs)"/>
+	<language name="Macedone" pattern="(mk)"/>
+	<language name="Albanese" pattern="(sq)"/>
+	<language name="Polacco" pattern="(pl)"/>
+	<language name="Serbo" pattern="(sr)"/>
+	<language name="Svedese" pattern="(sv|se)"/>
+	<language name="Russo" pattern="(ru)"/>
+	<language name="Ungherese" pattern="(hu)"/>
+	<language name="Estone" pattern="(et)"/>
+	<language name="Lituano" pattern="(lt)"/>
+	<language name="Basco" pattern="(eu)"/>
+	<language name="Norvegese" pattern="(no)"/>
+	<language name="Finlandese" pattern="(fi)"/>
+	<language name="Danese" pattern="(da|dk)"/>
+	<language name="Olandese" pattern="(be|nl)"/>
+	<language name="Greco" pattern="(gr|el)"/>
+	<language name="Lettone" pattern="(lv)"/>
+	<language name="Pashto" pattern="(ps)"/>
+	<language name="Ucraino" pattern="(uk)"/>
+	<language name="Ebraico" pattern="(iw|he)"/>
+	<language name="Sloveno" pattern="(sl)"/>
+	<language name="Takik" pattern="(tg)"/>
+	<language name="Farsi" pattern="(fa)"/>
+	<language name="Curdo" pattern="(ku)"/>
+	<language name="Moldavo" pattern="(mo)"/>
+	<language name="Occitano" pattern="(oc)"/>
+	<language name="Rumeno" pattern="(ro)"/>
+	<language name="Serbo-Croato" pattern="(sh)"/>
+	<language name="Yddish" pattern="(ji|latn|yi)"/>
+	<language name="Lingue Internazionali" pattern="(eo|ia|ie|vo)"/>
+	<language name="Indiano Americano" pattern="(ay|gn|qu)"/>
+	<language name="Indiano" pattern="(as|bn|bh|gu|hi|ks|mr|ne|or|pa|sa|sd|si|ur|kn|ml|ta|te)"/>
+	<language name="Origine Turca" pattern="(az|ba|kk|ky|tt|uz|ab|ka)"/>
+	<language name="Turco" pattern="(tr|tk)"/>
+	<language name="Arabo" pattern="(ar)"/>
+	<language name="Maltese" pattern="(mt)"/>
+	<language name="Lingua Asiatica" pattern="(dz|my|km|ko|lo|th|bo|vi|xiang)"/>
+	<language name="Giapponese" pattern="(jp|ja)"/>
+	<language name="Min" pattern="(min|nan)"/>
+	<language name="Cinese" pattern="(zh|guoyu|yue|mn|tw|cn)"/>
+	<language name="Canada" pattern="(ca)"/>
+	<language name="Colombia" pattern="(co)"/>
+	<language name="Messico" pattern="(mx)"/>
+	<language name="Lingua Africana" pattern="(af|ha|rw|rn|ln|sg|st|tn|sn|ss|sw|ts|tw|wo|xh|yo|zu|ni|za|om|aa|so)"/>
+	<language name="Lingua Australe" pattern="(fj|in|id|jv|mg|ms|mi|sm|su|tl|to)"/>
+</wbstatspec>

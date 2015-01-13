@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<wbstatspec type="linuxdistro" version="4.1" release="3">
+	<distro name="Linux Mint"
+			url="http://linuxmint.com/"
+			pattern="(linux[ ]?mint)"	patternver="" />
+	<distro name="Ubuntu"
+			url="http://www.ubuntu.com/"
+			pattern="(ubuntu)" 		patternver="ubuntu[/]?(\d{1,2}[.]\d{1,2})" />
+	<distro name="Fedora"
+			url="http://fedoraproject.org/"
+			pattern="(fedora)"  	patternver="" />
+	<distro name="Red Hat"
+			url="http://www.redhat.com/"
+			pattern="(red[ ]?hat)"  patternver="" />
+	<distro name="Debian"
+			url="http://www.debian.org/"
+			pattern="(debian)"		patternver="" />
+	<distro name="Mandriva" 
+			url="http://www.mandriva.com/"
+			pattern="(mandriva)"	patternver="mdv(\d{2,4}[.]\d{1,2})" />
+	<distro name="Mandrake"
+			url=""
+			pattern="(mdk)"			patternver="" />
+	<distro name="Slackwave"
+			url="http://www.slackware.com/"
+			pattern="(slack)"		patternver="()" />
+	<distro name="Gentoo"
+			url="http://www.gentoo.org/"
+			pattern="(gentoo)"		patternver="" />
+	<distro name="Suse"
+			url="http://www.novell.com/linux/"
+			pattern="(suse)"		patternver="" />
+	<distro name="PCLinuxOS"
+			url="http://www.pclinuxos.com/"
+			pattern="(pclinuxos)" 	patternver="" />
+	<distro name="Mepis"
+			url="http://www.mepis.org/"
+			pattern="(mepis)"		patternver="" />
+	<distro name="Backtrack2"
+			url="http://www.remote-exploit.org/backtrack_download.html"
+			pattern="(backtrack2)" 	patternver="" />
+	<distro name="Pardus"
+			url="http://www.pardus.org.tr/eng/"
+			pattern="(pardus)" 		patternver="" />
+</wbstatspec>
+

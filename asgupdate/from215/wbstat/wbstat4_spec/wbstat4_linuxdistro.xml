@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<wbstatspec type="linuxdistro" version="4.3" release="1">
+	<distro name="Linux Mint"
+			url="http://linuxmint.com/"
+			pattern="(\blinux[ ]?mint)"	patternver="" />
+	<distro name="Ubuntu"
+			url="http://www.ubuntu.com/"
+			pattern="(\bubuntu)" 		patternver="ubuntu[/]?(\d{1,2}[.]\d{1,2})" />
+	<distro name="Fedora"
+			url="http://fedoraproject.org/"
+			pattern="(\bfedora)"  	patternver="" />
+	<distro name="Red Hat"
+			url="http://www.redhat.com/"
+			pattern="(\bred[ ]?hat)"  patternver="" />
+	<distro name="Debian"
+			url="http://www.debian.org/"
+			pattern="(\bdebian)"		patternver="" />
+	<distro name="Mandriva" 
+			url="http://www.mandriva.com/"
+			pattern="(\bmandriva)"	patternver="mdv(\d{2,4}[.]\d{1,2})" />
+	<distro name="Mandrake"
+			url=""
+			pattern="(\bmdk)"			patternver="" />
+	<distro name="Zenwalk"
+			url="http://www.zenwalk.org/"
+			pattern="(\bzenwalk)"		patternver="zenwalk[ ]?(\d{1,2}[.]\d{1,2})" />
+	<distro name="Slackwave"
+			url="http://www.slackware.com/"
+			pattern="(\bslack)"		patternver="()" />
+	<distro name="Gentoo"
+			url="http://www.gentoo.org/"
+			pattern="(\bgentoo)"		patternver="" />
+	<distro name="Suse"
+			url="http://www.novell.com/linux/"
+			pattern="(\bsuse)"		patternver="" />
+	<distro name="PCLinuxOS"
+			url="http://www.pclinuxos.com/"
+			pattern="(\bpclinuxos)" 	patternver="" />
+	<distro name="Mepis"
+			url="http://www.mepis.org/"
+			pattern="(\bmepis)"		patternver="" />
+	<distro name="Backtrack2"
+			url="http://www.remote-exploit.org/backtrack_download.html"
+			pattern="(\bbacktrack2)" 	patternver="" />
+	<distro name="Pardus"
+			url="http://www.pardus.org.tr/eng/"
+			pattern="(\bpardus)" 		patternver="" />
+	<distro name="CentOS"
+			url="http://www.centos.org/"
+            pattern="(\bcentos)"		patternver="\bcentos[/]?(\d{1,2}[.]\d{1,2})" />
+	<distro name="Sabayon"
+			url="http://www.sabayon.org/"
+			pattern="(\bsabayon)"		patternver="" />
+	<distro name="Jolicloud"
+			url="http://www.jolicloud.com/"
+			pattern="(\bjolicloud)"		patternver="" />
+</wbstatspec>
+

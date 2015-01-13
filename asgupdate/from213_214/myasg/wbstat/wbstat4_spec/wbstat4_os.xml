@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<wbstatspec type="os" version="4.1" release="3">
+	<os id="27" name="Windows Vista" pattern="(win(?:dows)?(?: )?nt[ ]?6\.0)" type="16" arch="089" />
+	<os id="25" name="Windows XP" pattern="(win(?:dows)?[ _-]?(?:nt[ _-]?5\.1|xp|nt[ _-]?5\.2[ ]?x64))" type="16" arch="089" />
+	<os id="23" name="Windows 2000" pattern="(win(?:dows)?[ _-]?(?:(?:2000|2k)|nt[ _-]?5.0))" type="16" arch="0" />
+	<os id="22" name="Windows ME" pattern="(win(?:dows)?[ _]?(?:9x 4\.9|me))" type="15" arch="0" />
+	<os id="24" name="Windows Server 2003" pattern="(win(?:dows)?[ _-]?(?:(?:server[ ]?)?2003|nt[ _-]?5.2))" type="16" arch="089" />
+	<os id="64" name="Windows Server 2008" pattern="(win(?:dows)?[ _-]?(?:(?:server[ ]?)?2008|nt[ _-]?6.1))" type="16" arch="089" />
+	<os id="21" name="Windows 98" pattern="(win(?:dows)?[ _-]?98)" type="15" arch="0" />
+	<os id="20" name="Windows 95" pattern="(win(?:dows)?[ _-]?(?:95\/nt4|32|9x|95))" type="15" arch="0" />
+	<os id="19" name="Windows 3.1" pattern="(win(?:dows)?[ _-]?(?:3.1|16))" type="15" arch="0" />
+	<os id="52" name="Windows NT 3" pattern="(win(?:dows)?[ _-]?nt[ _-]?3(?:[.][15])?)" type="16" arch="0OLB" />
+	<os id="26" name="Windows NT 4" pattern="(win(?:dows)?[ _-]?nt)" type="16" arch="0OLB" />
+	<os id="32" name="SunOS" pattern="(sun[ -]?os [1234])" type="30" arch="E" />
+	<os id="48" name="A/UX" pattern="(a\/ux)" type="30" arch="A" />
+	<os id="73" name="iPhone" pattern="(iphone)" type="92" arch="T" />
+	<os id="77" name="iPod" pattern="(ipod)" type="90" arch="T" />
+	<os id="9" name="Mac OS X" pattern="(mac[ ]?os[ ]?x|mac_10)" type="20" arch="0B" />
+	<os id="8" name="Mac OS" pattern="(\bmac(?:intosh)?[ _]?(?:os|p(?:ower)?pc)?)" type="20" arch="AB" />
+	<os id="51" name="Linux" pattern="(linux)" type="30" arch="0BAELOGT" />
+	<os id="72" name="OpenSolaris" pattern="(opensolaris)" type="30" arch="089E" />
+	<os id="83" name="OpenQNX" pattern="(openqnx)" type="30" arch="0" />
+	<os id="2" name="IRIX" pattern="(irix)" type="30" arch="L" />
+	<os id="16" name="BeOS" pattern="(beos)" type="30" arch="0A" />
+	<os id="17" name="BeOS HAIKU" pattern="((?:beos)?[ ]?haiku)" type="30" arch="0A" />
+	<os id="18" name="BeOS ZETA" pattern="((?:beos)?[ ]?zeta)" type="30" arch="0A" />
+	<os id="28" name="Darwin" pattern="(darwin)" type="30" arch="0B" />
+	<os id="29" name="SCO" pattern="([^i]sco)" type="30" arch="0" />
+	<os id="30" name="AIX" pattern="(aix)" type="30" arch="B" />
+	<os id="31" name="Solaris" pattern="(solaris|sun[ -]?(?:4|os))" type="30" arch="089E" />
+	<os id="36" name="GNU Hurd" pattern="(gnu[ -]?hurd)" type="30" arch="0ABELOGT" />
+	<os id="37" name="HP-UX" pattern="(hp[ -]?ux)" type="30" arch="AG" />
+	<os id="39" name="NeXTStep" pattern="(next[ -_]?step)" type="30" arch="0AEG" />
+	<os id="40" name="OPENStep" pattern="(openstep)" type="30" arch="0AEG" />
+	<os id="41" name="Rhapsody" pattern="(rhapsody)" type="30" arch="0B" />
+	<os id="42" name="ULTRIX" pattern="(ultrix)" type="30" arch="PL" />
+	<os id="44" name="OpenVMS" pattern="(open[ -]?vms)" type="30" arch="0OP" />
+	<os id="45" name="Plan9" pattern="(plan9)" type="30" arch="0" />
+	<os id="46" name="Inferno" pattern="(inferno)" type="30" arch="0BTE" />
+	<os id="47" name="NEWS-OS" pattern="(news[ -]?os)" type="30" arch="U" />
+	<os id="49" name="GNUStep" pattern="(gnustep)" type="30" arch="0BEO" />
+	<os id="50" name="QNX" pattern="(qnx)" type="30" arch="0BLT" />
+	<os id="78" name="Tru64" pattern="(tru64)" type="30" arch="O" />
+	<os id="5" name="OpenBSD" pattern="(openbsd)" type="30" arch="0ABEGPT" />
+	<os id="6" name="NetBSD" pattern="(netbsd)" type="30" arch="0ABELOPGT" />
+	<os id="43" name="VMS" pattern="(vms|vax)" type="30" arch="P" />
+	<os id="66" name="GNU/kFreeBSD" pattern="((?:gnu\/)kfreebsd)" type="30" arch="09OE" />
+	<os id="67" name="PC-BSD" pattern="(pc[ -_]?bsd)" type="30" arch="09" />
+	<os id="74" name="DesktopBSD" pattern="(desktopbsd)" type="30" arch="089" />
+	<os id="75" name="DragonFlyBSD" pattern="(dragonflybsd)" type="30" arch="09" />
+	<os id="88" name="MidnightBSD" pattern="(midnight[ ]?bsd)" type="30" arch="0" />
+	<os id="4" name="FreeBSD" pattern="(freebsd)" type="30" arch="089BEOU" />
+	<os id="3" name="BSD" pattern="(bsd)" type="30" arch="0EB" />
+	<os id="69" name="MorphOS" pattern="(morphos)" type="70" arch="B" />
+	<os id="14" name="OS/2" pattern="(os\/2(?: )?(?:warp)?|warp)" type="70" arch="0" />
+	<os id="15" name="NetWARE" pattern="(netware)" type="70" arch="0A" />
+	<os id="33" name="AmigaOS" pattern="(amiga(?:os)?)" type="70" arch="AB" />
+	<os id="34" name="Atari" pattern="(atari)" type="70" arch="A" />
+	<os id="53" name="RISCOS" pattern="(risc[ ]?os)" type="70" arch="T" />
+	<os id="54" name="JAVAos" pattern="(java|j2me)" type="70" arch="0E" />
+	<os id="79" name="Syllable" pattern="(syllable)" type="70" arch="0" />
+	<os id="80" name="KolibriOS" pattern="(kolibrios)" type="70" arch="0" />
+	<os id="81" name="SkyOS" pattern="(skyos)" type="70" arch="0" />
+	<os id="82" name="MenuetOS" pattern="(menuetos)" type="70" arch="089" />
+	<os id="84" name="Aros" pattern="(\baros)" type="70" arch="0B" />
+	<os id="85" name="ReactOS" pattern="(reactos)" type="70" arch="0B" />
+	<os id="86" name="AtheOS" pattern="(atheos)" type="70" arch="0" />
+	<os id="87" name="ETH Oberon" pattern="(oberon\b)" type="70" arch="0" />
+	<os id="35" name="Commodore" pattern="(commodore)" type="70" arch="A" />
+	<os id="10" name="PC-DOS-2000" pattern="(pc-dos 2000)" type="10" arch="0" />
+	<os id="11" name="DRDOS" pattern="(drdos)" type="10" arch="0" />
+	<os id="12" name="FreeDOS" pattern="(freedos)" type="10" arch="0" />
+	<os id="13" name="RomDOS" pattern="(rom-dos|dos-rom)" type="10" arch="0" />
+	<os id="7" name="MS-DOS" pattern="(dos)" type="10" arch="0" />
+	<os id="60" name="Psion Palm" pattern="(psion)" type="90" arch="" />
+	<os id="62" name="Windows CE" pattern="(win(?:dows)?(?: )?ce)" type="90" arch="" />
+	<os id="63" name="PalmOS" pattern="(palm(?:os|source))" type="90" arch="" />
+	<os id="65" name="Symbian OS" pattern="(symbian)" type="92" arch="" />
+	<os id="90" name="OS2008" pattern="(os2008)" type="92" arch="T" />
+	<os id="55" name="Nokia Mobile" pattern="(nokia)" type="92" arch="" />
+	<os id="56" name="Sony Ericsson Mobile" pattern="(sony(?:-|[ ]|\/)?(?:ericsson)?(?:-|[ ])?(?:\w*))" type="92" arch="" />
+	<os id="57" name="Motorola Mobile" pattern="(motorola|^mot\b)" type="92" arch="" />
+	<os id="58" name="Alcatel Mobile" pattern="(alcatel)" type="92" arch="" />
+	<os id="59" name="Panasonic Mobile" pattern="(panasonic)" type="92" arch="" />
+	<os id="68" name="BlackBerry Mobile" pattern="(blackberry)" type="92" arch="" />
+	<os id="91" name="Samsung Mobile" pattern="(\bsamsung\b)" type="92" arch="" />
+	<os id="61" name="Sega Console" pattern="(dreamcast|sega)" type="95" arch="" />
+	<os id="71" name="Playstation Portable" pattern="(\bpsp|playstation[ ]?portable)" type="95" arch="" />
+	<os id="76" name="Nintendo Wii" pattern="(\bwii\b)" type="95" arch="" />
+	<os id="70" name="Playstation" pattern="(\bps|playstation)" type="95" arch="" />
+	<os id="89" name="Mobile" pattern="(UP)[.](?:browser|link)" type="92" arch="" />
+</wbstatspec>

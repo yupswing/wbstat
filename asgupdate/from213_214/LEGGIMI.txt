@@ -1,0 +1,69 @@
+
+
+AGGIORNAMENTO DI WBSTAT PER ASG 2.1.3/2.1.4
+----------------------------------------------------------
+
+aggiornamento di WBSTAT alla versione 4.1.3, aggiornamento
+delle icone dei browser e degli os, aggiornamento del
+database.
+
+installabile su ASG versione 2.1.3/2.1.4 (compatibile al 100%
+con il MOD di PUKOS versione 1.1 e precedenti)
+
+INDICE
+-----
+1. per chi ha già installato l'aggiornamento wbstat 4.0.1
+2. per chi ha già installato l'aggiornamento wbstat 4.1.x
+3. per chi non ha mai installato aggiornamenti
+
+----------------------------------------------------------
+**********************************************************
+----------------------------------------------------------
+
+
+
+1. PER CHI HA GIA' INSTALLATO L'AGGIORNAMENTO WBSTAT 4.0.1
+----------------------------------------------------------
+
+eseguire un backup della vostra installazione di myasg
+
+caricare il file "update-wbstat40xtowbstat413.asp" nella cartella
+di AspStatsGenerator (di default viene chiamata "myasg")
+
+aprire la pagina
+http://www.miosito.it/myasg/update-wbstat40xtowbstat413.asp
+e seguire le indicazioni
+
+----------------------------------------------------------
+**********************************************************
+----------------------------------------------------------
+
+
+
+2. PER CHI HA GIA' INSTALLATO L'AGGIORNAMENTO WBSTAT 4.1.x
+----------------------------------------------------------
+
+eseguire un backup della vostra installazione di myasg
+
+copiare esclusivamente la cartella WBSTAT e IMAGES sul
+vostro spazio web sovrascrivendo quelle esistenti
+
+----------------------------------------------------------
+**********************************************************
+----------------------------------------------------------
+
+
+3. PER CHI NON HA MAI INSTALLATO ALCUN AGGIORNAMENTO
+----------------------------------------------------------
+
+caricare il file "update-wbstat413.asp" nella cartella
+di AspStatsGenerator (di default viene chiamata "myasg")
+
+aprire la pagina
+http://www.miosito.it/myasg/update-wbstat413.asp
+e seguire le indicazioni
+
+----------------------------------------------------------
+
+versione update 4.1.3
+update by imente

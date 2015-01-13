@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<wbstatspec type="agent" version="4.3" release="1">
+	<agent id="424" name="Opera Mobile" pattern="(\bopera mobi\b)" type="521" cat="4" autoos="0" versionid="0$VERSION" />
+	<agent id="418" name="OpenWeb" pattern="(\bopenweb\b)" type="521" cat="0" autoos="0" versionid="9" />
+	<agent id="348" name="Opera Mini" pattern="(\bopera mini\b)" type="521" cat="4" autoos="0" versionid="0" />
+	<agent id="295" name="Opera" pattern="(\bopera\b)" type="510" cat="4" autoos="0" versionid="0$VERSION" />
+	<agent id="294" name="OmniWeb" pattern="(omniweb)" type="510" cat="3" autoos="0" versionid="0" />
+	<agent id="420" name="Arora" pattern="(\barora\b)" type="510" cat="3" autoos="0" versionid="9" />
+	<agent id="340" name="Cheshire" pattern="(cheshire)" type="510" cat="3" autoos="0" versionid="" />
+	<agent id="319" name="Epiphany" pattern="(epiphany)" type="510" cat="3" autoos="0" versionid="" />
+	<agent id="397" name="Google Chrome" pattern="(\bchrome\b)" type="510" cat="3" autoos="0" versionid="9" />
+	<agent id="416" name="Midori" pattern="(\bmidori\b)" type="510" cat="3" autoos="0" versionid="9" />
+	<agent id="345" name="Shiira" pattern="(shiira)" type="510" cat="3" autoos="0" versionid="" />
+	<agent id="419" name="Stainless" pattern="(\bstainless\b)" type="510" cat="3" autoos="0" versionid="9" />
+	<agent id="429" name="web" pattern="(\bwebos\b)" type="521" cat="3" autoos="0" versionid="1$VERSION" />
+	<agent id="366" name="Safari Mobile" pattern="(mobile[ ]?safari)" type="521" cat="3" autoos="0" versionid="1$VERSION" />
+	<agent id="274" name="Safari" pattern="(safari)" type="510" cat="3" autoos="0" versionid="1$VERSION" />
+	<agent id="356" name="ExaleadThumbnails" pattern="(exabot[- ]?thumbnails)" type="008" cat="0" autoos="0" versionid="8" />
+	<agent id="285" name="Konqueror" pattern="(konqueror)" type="510" cat="3" autoos="0" versionid="" />
+	<agent id="360" name="Swiftfox" pattern="(swiftfox)" type="510" cat="2" autoos="0" versionid="1(firefox)%CHR_VER%?%CHR_IDVD%" />
+	<agent id="316" name="Flock" pattern="(\bflock\b)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="318" name="IceWeasel" pattern="(iceweasel)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="388" name="LBrowser" pattern="(\blbrowser\b)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="427" name="Mozilla Firefox Mobile" pattern="(\bfennec\b)" type="521" cat="2" autoos="0" versionid="" />
+	<agent id="258" name="Netscape" pattern="(netscape(?:6)?|\bnavigator\b)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="374" name="Prism" pattern="(\bprism)" type="550" cat="2" autoos="0" versionid="" />
+	<agent id="355" name="SnapPreview" pattern="(snappreviewbot)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="373" name="Tablet Browser" pattern="(tablet[ ]?browser)" type="521" cat="2" autoos="90" versionid="" />
+	<agent id="428" name="Wyzo" pattern="(\bwyzo\b)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="268" name="Camino" pattern="(\bcamino\b)" type="510" cat="2" autoos="9" versionid="" />
+	<agent id="280" name="Galeon" pattern="(galeon)" type="510" cat="2" autoos="51" versionid="" />
+	<agent id="337" name="Bon Echo" pattern="(bonecho|firefox\/2\.0[ab])" type="510" cat="2" autoos="0" versionid="8(bonecho|firefox)%CHR_VER%?%CHR_IDVD%" />
+	<agent id="336" name="Deer Park" pattern="(deerpark|firefox\/1\.[56][ab])" type="510" cat="2" autoos="0" versionid="8(deerpark|firefox)%CHR_VER%?%CHR_IDVD%" />
+	<agent id="339" name="Gran Paradiso" pattern="(granparadiso\/\d[.]\d[ab]?|firefox\/3\.0[ab])" type="510" cat="2" autoos="0" versionid="8(granparadiso|firefox)%CHR_VER%?%CHR_IDVD%" />
+	<agent id="338" name="Mine Field" pattern="(minefield)" type="510" cat="2" autoos="0" versionid="8(minefield|firefox)%CHR_VER%?%CHR_IDVD%" />
+	<agent id="426" name="Namoroka" pattern="(namoroka\/\d[.]\d[ab]?|firefox\/3\.6[ab])" type="510" cat="2" autoos="0" versionid="8(namoroka|firefox)%CHR_VER%?%CHR_IDVD%" />
+	<agent id="422" name="Shiretoko" pattern="(shiretoko\/\d[.]\d[ab]?|firefox\/3\.[15][ab])" type="510" cat="2" autoos="0" versionid="8(shiretoko|firefox)%CHR_VER%?%CHR_IDVD%" />
+	<agent id="2" name="Mozilla Firefox" pattern="(\bfirefox|\bpmwfx\b)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="264" name="AvantBrowser" pattern="(avant[ ]?browser)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="269" name="Chimera" pattern="(\bchimera\b)" type="510" cat="2" autoos="9" versionid="" />
+	<agent id="271" name="CrazyBrowser" pattern="(crazy[ ]?browser)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="279" name="Frontpage" pattern="(frontpage)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="375" name="GreenBrowser" pattern="(green[ ]?browser)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="253" name="iCab" pattern="(\bicab\b)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="342" name="IceApe" pattern="(iceape)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="255" name="K-Meleon" pattern="(k-meleon)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="341" name="K-Ninja" pattern="(k-ninja)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="343" name="Kazehakase" pattern="(kazehakase)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="284" name="Maxthon" pattern="(maxthon)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="287" name="MSN Explorer" pattern="(msn)[ ]*\d" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="283" name="MyIE" pattern="(\bmyie)" type="510" cat="1" autoos="0" versionid="0" />
+	<agent id="344" name="Oregano" pattern="(oregano)" type="510" cat="0" autoos="53" versionid="" />
+	<agent id="346" name="w3m" pattern="(w3m)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="243" name="Ace Explorer" pattern="(\bace[ ]?explorer\b)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="261" name="Amaya" pattern="(amaya)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="247" name="ANT Browser" pattern="(ant(?:fresco|galio))" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="314" name="AOL" pattern="(\baol\b)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="313" name="AOL Explorer" pattern="(america[ ]?online[ ]?browser)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="262" name="Arachmo" pattern="(arachmo)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="263" name="Arachne" pattern="(arachne)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="245" name="AWeb" pattern="(\baweb\b)" type="510" cat="0" autoos="33" versionid="" />
+	<agent id="266" name="Beonex" pattern="(beonex)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="267" name="Blazer" pattern="(blazer)" type="521" cat="0" autoos="63" versionid="" />
+	<agent id="370" name="Bluefish" pattern="(bluefish)" type="550" cat="0" autoos="0" versionid="" />
+	<agent id="398" name="BrowseX" pattern="(\bbrowsex\b)" type="510" cat="0" autoos="0" versionid="9" />
+	<agent id="401" name="CheckAndGet" pattern="(\bcheck.get\b)" type="591" cat="1" autoos="0" versionid="9" />
+	<agent id="409" name="CompuServe 2000" pattern="(CS[ ]?2000)" type="510" cat="1" autoos="0" versionid="9" />
+	<agent id="270" name="Contiki" pattern="(contiki)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="272" name="Cuam" pattern="(\bcuam\b)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="371" name="cURL" pattern="(curl)" type="550" cat="0" autoos="0" versionid="" />
+	<agent id="273" name="CyberDog" pattern="(cyberdog)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="404" name="Deepnet Explorer" pattern="(deepnet.?explorer)" type="510" cat="1" autoos="0" versionid="9" />
+	<agent id="248" name="Dillo" pattern="(\bdillo\b)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="249" name="DocZilla" pattern="(doczilla)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="275" name="Emacs/W3" pattern="(emacs(?:-w3m)?)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="321" name="Enigma" pattern="(enigma[ ]?browser)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="129" name="GameSpy Arcade" pattern="(gamespy)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="251" name="HotJava" pattern="(hotjava)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="256" name="HP Secure" pattern="(swb)" type="510" cat="2" autoos="44" versionid="" />
+	<agent id="281" name="IBM WebExplorer" pattern="(ibm webexplorer)" type="510" cat="0" autoos="14" versionid="" />
+	<agent id="252" name="iBrowse" pattern="(ibrowse)" type="510" cat="0" autoos="33" versionid="" />
+	<agent id="254" name="ICE Browser" pattern="(ice[ ]?browser)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="282" name="iTreeSurf" pattern="(itreesurf)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="405" name="KKman" pattern="(kkman)" type="510" cat="1" autoos="0" versionid="9" />
+	<agent id="312" name="Minimo" pattern="(minimo)" type="521" cat="2" autoos="62" versionid="" />
+	<agent id="387" name="Mobile Explorer" pattern="(iemobile)" type="521" cat="1" autoos="0" versionid="" />
+	<agent id="276" name="Mozilla Firebird" pattern="(firebird)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="301" name="Mozilla Sunbird" pattern="(sunbird)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="286" name="NCSA Mosaic" pattern="(mosaic)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="289" name="Neoplanet" pattern="(neoplanet)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="291" name="NetCaptor" pattern="(netcaptor)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="431" name="NetFront" pattern="(\bnetfront\b)" type="521" cat="0" autoos="0" versionid="" />
+	<agent id="292" name="NetPositive" pattern="(netpositive|zonesurf)" type="510" cat="0" autoos="16" versionid="" />
+	<agent id="315" name="Novarra WebPro" pattern="\b(webpro)" type="521" cat="0" autoos="0" versionid="" />
+	<agent id="293" name="OffByOne" pattern="(offbyone|webster pro)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="296" name="Phaseout" pattern="(phaseout)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="277" name="Phoenix" pattern="(phoenix)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="278" name="Planetweb" pattern="(dreamcast|planetweb)" type="510" cat="0" autoos="61" versionid="" />
+	<agent id="297" name="Pocket Internet Explorer" pattern="(pocket internet explorer|mspie)" type="521" cat="1" autoos="62" versionid="" />
+	<agent id="298" name="Prodigy" pattern="(prodigy(?:-|[ ])?(?:web(?:-|[ ])?browser|wb)?)" type="510" cat="1" autoos="19" versionid="" />
+	<agent id="299" name="QNX Voyager" pattern="(qnx voyager)" type="510" cat="0" autoos="50" versionid="" />
+	<agent id="311" name="SeaMonkey" pattern="(seamonkey)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="320" name="SkipStone" pattern="(skipstone)" type="510" cat="2" autoos="0" versionid="" />
+	<agent id="300" name="Smart Explorer" pattern="(smart explorer)" type="510" cat="1" autoos="0" versionid="8" />
+	<agent id="302" name="Tango" pattern="(\b(?:tango|sextant)(?:[ \/]a)?)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="246" name="Voyager" pattern="(amigavoyager)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="257" name="Wanna-Be" pattern="(wanna-be browser)" type="510" cat="0" autoos="8" versionid="" />
+	<agent id="325" name="Akregator" pattern="(akregator)" type="530" cat="0" autoos="0" versionid="" />
+	<agent id="328" name="FeedDemon" pattern="(feeddemon)" type="530" cat="0" autoos="0" versionid="" />
+	<agent id="330" name="FeedReader" pattern="(feedreader)" type="530" cat="0" autoos="0" versionid="" />
+	<agent id="423" name="Mozilla Thunderbird" pattern="(\bthunderbird|\bshredder)" type="530" cat="0" autoos="0" versionid="9" />
+	<agent id="332" name="NetNewsWire" pattern="(netnewswire)" type="530" cat="0" autoos="0" versionid="" />
+	<agent id="333" name="Omea Reader" pattern="(omea reader)" type="530" cat="0" autoos="0" versionid="" />
+	<agent id="331" name="RSS Bandit" pattern="(rssbandit)" type="530" cat="0" autoos="0" versionid="" />
+	<agent id="329" name="RSSOwl" pattern="(rssowl)" type="530" cat="0" autoos="0" versionid="" />
+	<agent id="327" name="SharpReader" pattern="(sharpreader)" type="530" cat="0" autoos="0" versionid="" />
+	<agent id="326" name="Straw" pattern="(straw)" type="530" cat="0" autoos="0" versionid="" />
+	<agent id="358" name="Vienna" pattern="(\bvienna\b)" type="530" cat="0" autoos="9" versionid="" />
+	<agent id="324" name="YeahReader" pattern="(yeah[ _-]?reader)" type="530" cat="0" autoos="0" versionid="" />
+	<agent id="99" name="Amiga Charon" pattern="(charon.+amiga)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="265" name="BackStreet" pattern="(backstreet)" type="591" cat="0" autoos="0" versionid="" />
+	<agent id="35" name="Download Accelerator" pattern="^(da)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="113" name="Download Wonder" pattern="(download wonder)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="124" name="FileHound" pattern="(filehound)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="125" name="Flashget" pattern="(flashget)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="126" name="FreshDownload" pattern="(freshdownload)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="131" name="GetBot" pattern="(getbot)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="34" name="Getright" pattern="((?:my)?getright)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="217" name="GNU Wget" pattern="(wget)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="33" name="Go!Zilla" pattern="(go[!]zilla)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="364" name="HTTrack" pattern="(httrack)" type="591" cat="0" autoos="0" versionid="" />
+	<agent id="141" name="ICOOloader" pattern="(icoo loader)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="142" name="iGetter" pattern="(igetter)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="30" name="JoBo" pattern="(jobo)" type="591" cat="0" autoos="0" versionid="" />
+	<agent id="146" name="JOC Web Spider" pattern="(joc web spider)" type="591" cat="0" autoos="0" versionid="" />
+	<agent id="152" name="Lightning Download" pattern="(lightningdownload)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="156" name="NetAnts" pattern="(netants)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="157" name="NetPumper" pattern="(netpumper)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="169" name="PuxaRapido" pattern="(puxarapido)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="184" name="SpeedDownload" pattern="(speeddownload)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="187" name="Stamina" pattern="(stamina)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="188" name="Star Downloader" pattern="(star downloader)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="193" name="Teleport" pattern="(teleport)" type="591" cat="0" autoos="0" versionid="" />
+	<agent id="207" name="WebCopier" pattern="(webcopier)" type="591" cat="0" autoos="0" versionid="" />
+	<agent id="209" name="WebDownloader" pattern="(web[ ]?downloader(?: for x)?)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="211" name="Webminer" pattern="(webminer)" type="590" cat="0" autoos="0" versionid="" />
+	<agent id="212" name="WebReaper" pattern="(webreaper)" type="591" cat="0" autoos="0" versionid="" />
+	<agent id="213" name="WebSiteExtractor" pattern="(website extractor)" type="591" cat="0" autoos="0" versionid="" />
+	<agent id="215" name="WebStripper" pattern="(webstripper)" type="591" cat="0" autoos="0" versionid="" />
+	<agent id="216" name="WebZip" pattern="(webzip)" type="591" cat="1" autoos="0" versionid="" />
+	<agent id="221" name="WWWOFFLE" pattern="(wwwoffle)" type="591" cat="0" autoos="0" versionid="" />
+	<agent id="250" name="Wysigot" pattern="(ecatch|wysigot)" type="591" cat="0" autoos="0" versionid="" />
+	<agent id="372" name="Charon" pattern="(charon)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="307" name="Materna" pattern="(materna(?:-|[ ])?wappreview)" type="520" cat="0" autoos="0" versionid="" />
+	<agent id="305" name="Netshow" pattern="(netshow)" type="515" cat="0" autoos="0" versionid="" />
+	<agent id="406" name="Obigo" pattern="(\bobigo(?:-[a-z0-9]+)?)" type="520" cat="0" autoos="0" versionid="" />
+	<agent id="303" name="Quicktime" pattern="(quicktime|qtver)" type="515" cat="0" autoos="0" versionid="" />
+	<agent id="380" name="Songbird" pattern="(songbird\b)" type="515" cat="0" autoos="0" versionid="" />
+	<agent id="334" name="VLC Media Player" pattern="(vlc(?: media player)?)" type="515" cat="0" autoos="0" versionid="" />
+	<agent id="309" name="WapIDE" pattern="(wapide(?:-|[ ])?sdk)" type="520" cat="0" autoos="0" versionid="" />
+	<agent id="304" name="Winamp" pattern="(winamp(?:mpeg)?)" type="515" cat="0" autoos="0" versionid="" />
+	<agent id="306" name="Windows Media Player" pattern="((?:windows)?(?:-|[ ])?media(?:-|[ ])?player|nsplayer)" type="515" cat="0" autoos="0" versionid="0" />
+	<agent id="308" name="WinWap" pattern="(winwap)" type="520" cat="0" autoos="0" versionid="" />
+	<agent id="69" name="2Bone Link Checker" pattern="(2Bone(?:_| )?LinkCh(?:kr|ecker))" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="74" name="ActiveBookmark" pattern="(activebookmark)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="421" name="Apple PubSub" pattern="(\bapple-pubsub\b)" type="008" cat="0" autoos="0" versionid="9" />
+	<agent id="90" name="Big Brother" pattern="(big brother)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="147" name="Check Favorites" pattern="(check favorites)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="18" name="Checkbot" pattern="(checkbot)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="101" name="CheckWeb" pattern="(checkweb)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="354" name="CSE HTML Validator" pattern="(cse[ ]?html[ ]?validator)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="107" name="Custo" pattern="(\bcusto\b)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="22" name="Cyber Spyder Link Test" pattern="(cyberspyder(?: link test)?)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="10" name="Cynthia" pattern="(cynthia)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="110" name="Dead Link Check" pattern="(deadlinkcheck)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="5" name="Doctor HTML" pattern="(doctor[ -]?html)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="365" name="DomainTools" pattern="(surveybot)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="413" name="EmailSearch" pattern="(emailsearch)" type="002" cat="0" autoos="0" versionid="9" />
+	<agent id="121" name="EXPelite" pattern="(extractorpro)" type="002" cat="0" autoos="0" versionid="" />
+	<agent id="439" name="Facebook Tools" pattern="(facebookexternalhit|facebookscraper)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="394" name="FakeWordpress" pattern="(^wordpress)" type="002" cat="0" autoos="0" versionid="" />
+	<agent id="11" name="FeedValidator" pattern="(feedvalidator)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="357" name="Girafa" pattern="(\bgirafa(?:bot)?\b)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="361" name="Google Desktop" pattern="(google[ ]?desktop)" type="550" cat="0" autoos="0" versionid="" />
+	<agent id="359" name="Google Feedfetcher" pattern="(feedfetcher[- ]google)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="392" name="HMSEbot" pattern="(hmsebot)" type="002" cat="0" autoos="0" versionid="" />
+	<agent id="138" name="Html Link Validator" pattern="(html link validator)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="139" name="HTML2JPG" pattern="(html2jpg)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="386" name="HttpHeadersAnalyzer" pattern="(httpheadersanalyzer)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="385" name="HttpHeadersChecker" pattern="(httpheaderschecker)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="144" name="InternetSeer" pattern="(internetseer[.]com)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="378" name="iTunes" pattern="(itunes)" type="550" cat="0" autoos="-1" versionid="" />
+	<agent id="145" name="JCheckLinks" pattern="(jchecklinks)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="153" name="LinkAlarm" pattern="(linkalarm)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="32" name="LinkChecking" pattern="(linkwalker)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="440" name="LinkedIn Tools" pattern="(linkedinbot)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="154" name="LinkLint" pattern="(linklint)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="84" name="Linkscan" pattern="(linkscan)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="434" name="Majelan" pattern="(majelan[/]?bot)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="80" name="Megaproxy" pattern="(proxyos)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="43" name="MOMspider" pattern="(momspider)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="411" name="Netcraft WebServerSurvey" pattern="(netcraft.?web.?server.?survey)" type="008" cat="90" autoos="0" versionid="9" />
+	<agent id="45" name="NetMechanic" pattern="(netmechanic)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="160" name="Online Validator" pattern="(online link validator|reciprocal links checker)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="410" name="PHP Version Tracker" pattern="(php[ ]?version[ ]?tracker)" type="001" cat="0" autoos="0" versionid="9" />
+	<agent id="367" name="Pingdom" pattern="(pingdom)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="67" name="Robots.txt Validator" pattern="(robots[.]txt validator)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="403" name="SecureComputing" pattern="(page_prefetcher|securecomputing.com|\bxenu[ ]?link)" type="008" cat="0" autoos="0" versionid="9" />
+	<agent id="393" name="Shelob" pattern="(^shelob)" type="002" cat="0" autoos="0" versionid="" />
+	<agent id="51" name="Site Valet" pattern="((?:link|page)?(?: )?valet(?: )?(?:online)?)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="55" name="SiteSearcher" pattern="(ssearch)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="116" name="Sonic" pattern="(emailsiphon)" type="002" cat="0" autoos="0" versionid="" />
+	<agent id="438" name="SQL Injections Tester" pattern="(cz32ts|nv32ts|ati2qs|pangolin)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="61" name="The Web Moose" pattern="(webmoose)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="7" name="W3C CSS Validator" pattern="(w3c(?: |_)?css(?: |_)?validator)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="8" name="W3C HTML Validator" pattern="(w3c(?: |_)?validator)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="9" name="W3C LINKS Validator" pattern="(w3c(?: |-|_)?checklink)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="57" name="W3M2" pattern="(w3m2)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="134" name="WBpagechecker" pattern="(wbpagechecker)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="59" name="WebCopy" pattern="(webcopy)" type="008" cat="0" autoos="0" versionid="" />
+	<agent id="62" name="WebLog" pattern="(wml)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="6" name="WebSiteOptimization" pattern="(websiteoptimization)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="317" name="WEBXACT" pattern="(webxact)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="437" name="XML Sitemaps Generator" pattern="(xml-sitemaps)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="379" name="ZenCast" pattern="^(creative zencast)" type="550" cat="0" autoos="0" versionid="" />
+	<agent id="430" name="AdobeAIR" pattern="(\badobeair\b)" type="550" cat="3" autoos="0" versionid="" />
+	<agent id="100" name="Checklinks" pattern="(checklinks)" type="001" cat="0" autoos="0" versionid="" />
+	<agent id="351" name="Java" pattern="(\bjava\b)" type="550" cat="0" autoos="0" versionid="" />
+	<agent id="352" name="libwww-perl" pattern="(libwww[-]?perl)" type="550" cat="0" autoos="0" versionid="" />
+	<agent id="363" name="python-urllib" pattern="(python[-]?urllib)" type="550" cat="0" autoos="0" versionid="" />
+	<agent id="347" name="Playstation" pattern="(\bps|playstation)" type="510" cat="0" autoos="0" versionid="8" />
+	<agent id="322" name="ELinks" pattern="(elinks)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="323" name="Lynx" pattern="(\b(?:mac)?lynx\b)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="260" name="Links" pattern="(\blinks\b)" type="510" cat="0" autoos="0" versionid="" />
+	<agent id="259" name="Mozilla" pattern="(\brv:)" type="510" cat="2" autoos="0" versionid="1()(?:rv:)%CHR_IDV%" />
+	<agent id="3" name="Internet Explorer" pattern="(msie)" type="510" cat="1" autoos="0" versionid="" />
+	<agent id="310" name="Netscape Navigator" pattern="^(mozilla\/[234]\.\d)" type="510" cat="0" autoos="0" versionid="1^(mozilla)%CHR_VER%?%CHR_IDVD%" />
+</wbstatspec>
