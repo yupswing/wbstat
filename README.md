@@ -1,5 +1,38 @@
 
-<h3><a id="site"></a> WBstat changelog</h3>
+<h2>WBstat</h2>
+
+<ul>
+<li><a href="#info">Informazioni</a></li>
+<li><a href="#changelog">Changelog</a></li>
+<li><a href="#docs">Documentazione</a></li>
+</ul>
+<hr/>
+
+<h3><a id="info"></a> Informazioni</h3>
+<p><strong>WBstat</strong> &egrave; una piccola ma potente applicazione web sviluppata in linguaggio ASP3.<br />
+
+La funzione di questa classe  &egrave; l'elaborazione delle stringhe user-agent  e la restituzione di dati razionalizzati; nella pratica l'oneroso  compito che WBstat assolve &egrave; quello di 'prendere' la user-agent ( che &egrave;  una stringa 'senza regole' che pu&ograve; contenere dati in forme quasi mai  convenzionali ) e trasformarla in una serie di dati riutilizzabili, quali  &quot;Sistema Operativo&quot;, &quot;Browser&quot;, etc. etc.</p>
+<p>		  Questi dati estrapolati dalla stringa user-agent possono poi essere utilizzati facilmente dalla  vostra applicazione per statistiche, marketing, analisi...<br />
+  La classe &egrave; inoltre  personalizzabile ( per permettere di ottimizzare  il carico di lavoro a seconda delle esigenze) e produce dati di qualit&agrave; con scarso margine di errore.</p>
+<p>Fra le feature pi&ugrave; importanti c'&egrave; il 'guessing', che permette di identificare il nome dell'agente anche se esso non &egrave; presente all'interno del database seguendo una serie di pattern che cercano firme convenzionali.</p>
+<hr/>
+<p>L'ultima versione della classe identifica correttamente tutti i browser, robots e sistemi operativi presenti nel database di useragents.org (non piu online) e dall'analisi della user-agent estrapola ulteriori informazioni (se presenti) quali il livello di crittazione, la versione di Gecko, l'architettura hardware, eventuali url, la lingua, la distribuzione linux, il motore di layout del browser; inoltre la classe permette di visualizzare una icona relativa al sistema operativo e al browser (se riconosciuti) personalizzata a seconda della versione degli stessi. </p>
+<h5>licenza</h5>
+<p>La classe &egrave; distribuita sotto <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/it/" rel="external">licenza Creative Commons</a>.  </p>
+<p>tu sei libero di riprodurre, distribuire, comunicare al pubblico, esporre
+in pubblico e di modificare quest'opera
+alle seguenti condizioni:<br/>
+<strong>Attribuzione</strong> Devi attribuire la paternità dell'opera nei modi indicati
+dall'autore o da chi ti ha dato l'opera in licenza e in modo tale da non
+suggerire che essi avallino te o il modo in cui tu usi l'opera.<br/>
+<strong>Non commerciale</strong> Non puoi usare quest'opera per fini commerciali.<br/>
+<strong>Condividi allo stesso modo</strong> Se alteri o trasformi quest'opera, o se
+la usi per crearne un'altra, puoi distribuire l'opera risultante solo con
+una licenza identica o equivalente a questa.</p>
+
+<hr/>
+
+<h3><a id="changelog"></a> Changelog</h3>
 <h4>changelog</h4>
 <div class="version">
 <p class="tb">4.3</p>
@@ -13,8 +46,6 @@
 <li>edit » rewritten all windows regexp</li>
 <li>info » +11 browser [177], +5 os [95], +11 spider [258], lingua [181]</li>
 <li>info » +3 distro [19], +4 handheld [14]</li>
-<li class="i">per implementazione su sistema che utilizza wbstat3.1 consultare la <a href="develop-wbstat.asp?w=docs">documentazione</a></li>
-<li class="i">per informazioni più dettagliate consultare le <a href="develop-wbstat-release4.asp">release notes 4.x</a></li>
 </ul>
 
 <p class="tb">4.2</p>
@@ -24,8 +55,6 @@
 <li>bugfix » minori correzioni</li>
 <li>info » +16 browser [166], +1 os [90], +28 spider [247], lingua [181]</li>
 <li>info » +3 distro [16], +1 handheld [10]</li>
-<li class="i">per implementazione su sistema che utilizza wbstat3.1 consultare la <a href="develop-wbstat.asp?w=docs">documentazione</a></li>
-<li class="i">per informazioni più dettagliate consultare le <a href="develop-wbstat-release4.asp">release notes 4.x</a></li>
 </ul>
 
 <p class="tb">4.1</p>
@@ -45,8 +74,6 @@
 <li>info » ELIMINATE FUNZIONI DI ISTANZA CREATEWBSTAT (consulta documentazione!)</li>
 <li>info » +10 browser [150], +14 os [89], +2 spider [219], lingua [181]</li>
 <li>info » +4 distro [13], +9 handheld [9]</li>
-<li class="i">per implementazione su sistema che utilizza wbstat3.1 consultare la <a href="develop-wbstat.asp?w=docs">documentazione</a></li>
-<li class="i">per informazioni più dettagliate consultare le <a href="develop-wbstat-release4.asp">release notes 4.x</a></li>
 </ul>
 
 <p class="tb">4.0</p>
@@ -65,8 +92,6 @@
 <li>delete » sistema di riconoscimento ACTandCAP sui browser!!! </li>
 <li>info » browser [140], sistemi operativi [75], spider [217], lingua [181] </li>
 <li>info » distro linux [9]</li>
-<li class="i">per implementazione su sistema che utilizza wbstat3.1 consultare la <a href="develop-wbstat.asp?w=docs">documentazione</a></li>
-<li class="i">per informazioni più dettagliate consultare le <a href="develop-wbstat-release4.asp">release notes 4.x</a></li>
 <li><b>tempo medio di esecuzione di una elaborazione di user agent: 0,16 secondi</b></li>
 </ul>
 
@@ -240,6 +265,11 @@ nuovo: oggetto Browser.Engine, per i browser conosciuti identifica anche il moto
 <li class="i">identificazione: 3 browser e 3 os</li>
 </ul>
 </div>
+
+
+<hr/>
+
+<h3><a id="docs"></a> Documentazione</h3>
 
 <div style="font-family:tahoma,helvetica,serif"><p><strong><a href="#index-1-0">1. DEFINIZIONE</a></strong><br />
   <strong><a href="#index-2-0">2. COME USARE LA CLASSE</a></strong><br />
@@ -1050,10 +1080,9 @@ attraverso l'impostazione della propriet&agrave; <a href="#opt-cache"><strong>Op
 <p><span style="font-weight: bold"><a href="#index-3-3-3">Gecko.Version</a>:</span> l'item Gecko.Version &egrave; stato ampliato. ci&ograve; che prima si chiamava Gecko.Version viene ora restituito in Gecko.Version.Release. Gecko.Version restituisce ora la versione formale (x.x) </p>
 <p><a href="#index-3-2-5" style="font-weight: bold">OS.Arch</a>: introdotta la funzione di identificazione delle architetture</p>
 <p><a href="#index-3-5-2" style="font-weight: bold">Useragent.Url</a>: al posto della rimossa Browser.Url &egrave; stata introdotta la pi&ugrave; conforme Useragent.url che svolge identica funzione</p>
-<p><a href="#index-3-1-4" style="font-weight: bold">Browser.Type:</a> nonostante lo stesso nome i valori di riferimento sono stati aggiornati: vedere le <a href="develop-wbstat-release4.asp">release notes</a> per maggiori informazioni. </p>
-<p><a href="#index-3-2-4" style="font-weight: bold">OS.Core:</a> introdotta os.core come sostituta di OS.Type. i valori di riferimento sono stati aggiornati; vedere le <a href="develop-wbstat-release4.asp">release notes</a> per maggiori informazioni. </p>
+<p><a href="#index-3-1-4" style="font-weight: bold">Browser.Type:</a> nonostante lo stesso nome i valori di riferimento sono stati aggiornati. </p>
+<p><a href="#index-3-2-4" style="font-weight: bold">OS.Core:</a> introdotta os.core come sostituta di OS.Type. i valori di riferimento sono stati aggiornati. </p>
 <p><a href="#index-3-2-6" style="font-weight: bold">OS.Distro:</a> introdotta os.core come sostituta di OS.Type nel caso di identificazione di sistema Linux.</p>
-<p style="font-weight: bold">per  informazioni complete circa le differenze, e quindi le strategie di aggiornamento, consultare le <a href="develop-wbstat-release4.asp">release notes</a> ufficiali di WBstat 4.0 </p>
 <hr/>
 <h4>4.1.2 Item non pi&ugrave; disponibili<a name="index-4-1-2" id="index-4-1-2"></a></h4>
 <p>le variabili <span style="font-weight: bold">Browser.Act</span> e <span style="font-weight: bold">Browser.Cap</span> erano presenti in WBstat3.x<br />
@@ -1073,8 +1102,7 @@ esse permettevano l'individuazione (tramite dati precedentemente definiti) di al
 - Screen -> <a href="#index-3-3-5"><strong>Special.Screen</strong></a>
 </p>
 <p>OS.Distro scissa in <a href="#index-3-2-6"><strong>OS.Distro.Name</strong></a> (come OS.Distro) e <a href="#index-3-2-6"><strong>OS.Distro.Version</strong></a> (che identifica la versione di alcune distribuzioni)</p>
-<p><a href="#index-3-1-5" style="font-weight: bold">Browser.SubType</a>: piccola aggiunta alla tabella di riferimento ( vedere le <a href="develop-wbstat-release4.asp">release notes</a> per maggiori informazioni). </p>
-<p style="font-weight: bold">per informazioni complete circa le differenze, e quindi le strategie di aggiornamento, consultare le <a href="develop-wbstat-release4.asp">release notes</a> ufficiali di WBstat 4.0/4.1 </p>
+<p><a href="#index-3-1-5" style="font-weight: bold">Browser.SubType</a>: piccola aggiunta alla tabella di riferimento. </p>
 <hr/>
 <h4>4.3 Da wbStat v4.1 a v4.2<a name="index-4-3" id="index-4-3"></a></h4>
 <h4>4.3.1 Panoramica delle differenze <a name="index-4-3-1" id="index-4-3-1"></a></h4>
@@ -1091,25 +1119,5 @@ esse permettevano l'individuazione (tramite dati precedentemente definiti) di al
 </p>
 </div>
 
-<h3><a id="site"></a> WBstat</h3>
-<p><strong>WBstat</strong> &egrave; una piccola ma potente applicazione web sviluppata in linguaggio ASP3.<br />
 
-La funzione di questa classe  &egrave; l'elaborazione delle stringhe user-agent  e la restituzione di dati razionalizzati; nella pratica l'oneroso  compito che WBstat assolve &egrave; quello di 'prendere' la user-agent ( che &egrave;  una stringa 'senza regole' che pu&ograve; contenere dati in forme quasi mai  convenzionali ) e trasformarla in una serie di dati riutilizzabili, quali  &quot;Sistema Operativo&quot;, &quot;Browser&quot;, etc. etc.</p>
-<p>		  Questi dati estrapolati dalla stringa user-agent possono poi essere utilizzati facilmente dalla  vostra applicazione per statistiche, marketing, analisi...<br />
-  La classe &egrave; inoltre  personalizzabile ( per permettere di ottimizzare  il carico di lavoro a seconda delle esigenze) e produce dati di qualit&agrave; con scarso margine di errore.</p>
-<p>Fra le feature pi&ugrave; importanti c'&egrave; il 'guessing', che permette di identificare il nome dell'agente anche se esso non &egrave; presente all'interno del database seguendo una serie di pattern che cercano firme convenzionali.</p>
-<hr/>
-<p>L'ultima versione della classe identifica correttamente tutti i browser, robots e sistemi operativi presenti nel <a href="database.asp">database</a> e dall'analisi della user-agent estrapola ulteriori informazioni (se presenti) quali il livello di crittazione, la versione di Gecko, l'architettura hardware, eventuali url, la lingua, la distribuzione linux, il motore di layout del browser; inoltre la classe permette di visualizzare una icona relativa al sistema operativo e al browser (se riconosciuti) personalizzata a seconda della versione degli stessi. </p>
-<h5>licenza</h5>
-<p>La classe &egrave; distribuita sotto <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/it/" rel="external">licenza Creative Commons</a>.  </p>
-<p>tu sei libero di riprodurre, distribuire, comunicare al pubblico, esporre
-in pubblico e di modificare quest'opera
-alle seguenti condizioni:<br/>
-<strong>Attribuzione</strong> Devi attribuire la paternità dell'opera nei modi indicati
-dall'autore o da chi ti ha dato l'opera in licenza e in modo tale da non
-suggerire che essi avallino te o il modo in cui tu usi l'opera.<br/>
-<strong>Non commerciale</strong> Non puoi usare quest'opera per fini commerciali.<br/>
-<strong>Condividi allo stesso modo</strong> Se alteri o trasformi quest'opera, o se
-la usi per crearne un'altra, puoi distribuire l'opera risultante solo con
-una licenza identica o equivalente a questa.</p>
 
