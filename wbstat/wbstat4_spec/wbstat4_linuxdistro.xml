@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<wbstatspec type="linuxdistro" version="4.3" release="1">
+<wbstatspec type="linuxdistro" version="4.4" release="0">
 	<distro name="Linux Mint"
 			url="http://linuxmint.com/"
 			pattern="(\blinux[ ]?mint)"	patternver="" />

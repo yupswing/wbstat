@@ -2,12 +2,11 @@
 '####################################################################################################
 '### WBSTAT decode functions ###
 '#
-'# * @info		      wbStat 4.3
-'# * @author          Simone Cingano <simonecingano@imente.org>
-'# * @copyright       2002-2010 Simone Cingano
+'# * @info		      wbStat 4.4dev
+'# * @author          Simone Cingano <simonecingano@gmail.com>
+'# * @copyright       2002-2015 Simone Cingano
 '# * @license         http://www.opensource.org/licenses/mit-license.php
-'# * @version         SVN: $Id: wbstat4_decode.asp 12 2010-10-15 18:24:14Z imente $
-'# * @home            http://www.useragents.org/wbstat
+'# * @home            https://github.com/yupswing/wbstat
 '#
 '####################################################################################################
 

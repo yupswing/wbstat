@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<wbstatspec type="language" version="4.3" release="1">
+<wbstatspec type="language" version="4.4" release="0">
 	<language name="Italiano" pattern="(it|ch)"/>
 	<language name="Inglese" pattern="(gb|br|en|us|ga|gd|cy|ie)"/>
 	<language name="Francese" pattern="(fr|gl|co)"/>

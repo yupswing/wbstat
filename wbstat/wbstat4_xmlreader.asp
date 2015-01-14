@@ -2,12 +2,11 @@
 '####################################################################################################
 '### WBSTAT xmlreader class ###
 '#
-'# * @info		      wbStat 4.3
-'# * @author          Simone Cingano <simonecingano@imente.org>
-'# * @copyright       2002-2011 Simone Cingano
+'# * @info		      wbStat 4.4dev
+'# * @author          Simone Cingano <simonecingano@gmail.com>
+'# * @copyright       2002-2015 Simone Cingano
 '# * @license         http://www.opensource.org/licenses/mit-license.php
-'# * @version         SVN: $Id: wbstat4_xmlreader.asp 7 2008-09-03 00:20:34Z imente $
-'# * @home            http://www.useragents.org/wbstat
+'# * @home            https://github.com/yupswing/wbstat
 '#
 '####################################################################################################
 

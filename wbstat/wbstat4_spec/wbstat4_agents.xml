@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<wbstatspec type="agent" version="4.3" release="1">
+<wbstatspec type="agent" version="4.4" release="0">
 	<agent id="424" name="Opera Mobile" pattern="(\bopera mobi\b)" type="521" cat="4" autoos="0" versionid="0$VERSION" />
 	<agent id="418" name="OpenWeb" pattern="(\bopenweb\b)" type="521" cat="0" autoos="0" versionid="9" />
 	<agent id="348" name="Opera Mini" pattern="(\bopera mini\b)" type="521" cat="4" autoos="0" versionid="0" />

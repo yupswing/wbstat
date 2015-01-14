@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<wbstatspec type="os" version="4.3" release="1">
-	<os id="27" name="Windows Vista" pattern="(windows nt 6\.0)" type="16" arch="089" />
-	<os id="64" name="Windows 7" pattern="(windows nt 6\.1)" type="16" arch="089" />
+<wbstatspec type="os" version="4.4" release="0">
 	<os id="25" name="Windows XP" pattern="(win(?:dows)?[ _-]?(?:xp|nt[ _-]?5\.1|nt[ _-]?5\.2[ ]?x64))" type="16" arch="089" />
+	<os id="64" name="Windows 7" pattern="(windows nt 6\.1)" type="16" arch="089" />
+	<os id="98" name="Windows 8" pattern="(windows nt 6\.[23])" type="16" arch="089" />
+	<os id="27" name="Windows Vista" pattern="(windows nt 6\.0)" type="16" arch="089" />
+	<os id="99" name="Windows 10" pattern="(windows nt (?:6\.4|10\.0))" type="16" arch="089" />
 	<os id="23" name="Windows 2000" pattern="(win(?:dows)?[ _-]?(?:(?:2000|2k)|nt[ _-]?5\.0))" type="16" arch="0" />
 	<os id="22" name="Windows ME" pattern="(win(?:dows)?[ _]?(?:9x 4\.9|me))" type="15" arch="0" />
 	<os id="24" name="Windows Server 2003" pattern="(windows nt 5\.2)" type="16" arch="089" />

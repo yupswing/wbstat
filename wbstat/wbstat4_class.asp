@@ -4,22 +4,21 @@
 '####################################################################################################
 '### WBSTAT statistic class ###
 '#
-'# * @info		      wbStat 4.3
-'# * @author          Simone Cingano <simonecingano@imente.org>
-'# * @copyright       2002-2011 Simone Cingano
+'# * @info		      wbStat 4.4dev
+'# * @author          Simone Cingano <simonecingano@gmail.com>
+'# * @copyright       2002-2015 Simone Cingano
 '# * @license         http://www.opensource.org/licenses/mit-license.php
-'# * @version         SVN: $Id: wbstat4_class.asp 14 2010-10-18 21:26:22Z imente $
-'# * @home            http://www.useragents.org/wbstat
+'# * @home            https://github.com/yupswing/wbstat
 '#
 '#  Grazie al prezioso contributo di Baol74 (http://www.aspxnet.it) e Weppos (http://www.simonecarletti.com)
 '####################################################################################################
 
 '#  INFORMAZIONI E SITO DI RIFERIMENTO:
 '#  visitate il sito di WBstat per informazioni e aggiornamenti
-'#  http://www.useragents.org/wbstat
+'#  https://github.com/yupswing/wbstat
 '####################################################################################################
 
-'# Copyright (c) 2004-2011 Simone Cingano
+'# Copyright (c) 2004-2015 Simone Cingano
 '# 
 '# Permission is hereby granted, free of charge, to any person
 '# obtaining a copy of this software and associated documentation
@@ -84,8 +83,8 @@
 	Const CST_XML_LINUXDISTRO =	"wbstat4_linuxdistro.xml"	'distribuzioni linux
 '# - INFO
 	Const CST_WBSTAT_INFO = _
-	"WBSTAT/4.3 AUTH:Simone Cingano VER:Original WEB:http://www.useragents.org/wbstat"
-	Const CST_WBSTAT_VERSION = "4.3"
+	"WBSTAT/4.4 AUTH:Simone Cingano VER:Original WEB:http://www.useragents.org/wbstat"
+	Const CST_WBSTAT_VERSION = "4.4"
 	Const CST_USERAGENTSORG = "http://www.useragents.org/"
 '# - ITEMS NAME (dal database)
 '	valori costanti, nel qual caso si modificasse il valore nel database
@@ -98,6 +97,9 @@
 	Const ITEM_WIN2008 =		"windows server 2008"
 	Const ITEM_WIN2003 =		"windows server 2003"
 	Const ITEM_WINVISTA =		"windows vista"
+	Const ITEM_WIN7 =		    "windows 7"
+	Const ITEM_WIN8 =		    "windows 8"
+	Const ITEM_WIN10 =		    "windows 10"
 	Const ITEM_WINXP =			"windows xp"
 	Const ITEM_WIN2000 =		"windows 2000"
 	Const ITEM_WINNT3 =			"windows nt 3"
@@ -1061,6 +1063,9 @@ Class wbstatclass
                 select case lcase(pItemOsName)
                     case ITEM_WIN2008 	: Major = "6" : Minor = "1" : Full = "6.1"
                     case ITEM_WINVISTA	: Major = "6" : Minor = "0" : Full = "6.0"
+                    case ITEM_WIN7	    : Major = "6" : Minor = "1" : Full = "6.1"
+                    case ITEM_WIN8   	: Major = "6" : Minor = "2" : Full = "6.2"
+                    case ITEM_WIN10	    : Major = "10" : Minor = "0" : Full = "10.0"
                     case ITEM_WIN2003 	: Major = "5" : Minor = "2" : Full = "5.2"
                     case ITEM_WINXP 	: Major = "5" : Minor = "1" : Full = "5.1"
                     case ITEM_WIN2000	: Major = "5" : Minor = "0" : Full = "5.0"

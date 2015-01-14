@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<wbstatspec type="handheld" version="4.3" release="1">
+<wbstatspec type="handheld" version="4.4" release="0">
 	<handheld name="Nokia"
 			  pattern="(nokia)" 			patternver="%n[/\ ]?([en\d]{3,4}[i]?)" />
 	<handheld name="Siemens"
