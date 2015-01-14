@@ -1,29 +1,21 @@
 '####################################################################################################
 '### WBSTAT statistic class ###
-'#  Classe: WBstat v4.3
-'#  Autore: Simone Cingano (http://www.imente.org)
-'#  Email:  simonecingano@gimente.org
+'#  Classe: WBstat v4.4dev
+'#  Autore: Simone Cingano (http://simonecingano.it)
+'#  Email:  simonecingano@gmail.com
 '####################################################################################################
 
 
 ## SITO UFFICIALE
 http://www.useragents.org/wbstat
-
-## DOCS
-La documentazione di wbStat è disponibile all'indirizzo
-http://www.useragents.org/develop-wbstat.asp?w=docs
-
-## ADDONS
-E' possibile scaricare icone e bandiere all'indirizzo
-http://www.useragents.org/develop-download.asp?c=wbstat
-Copiare poi wbstat4_icons e wbstat4_flags nella cartella dove Ë presente wbstat4_class.asp
+https://github.com/yupswing/wbstat
 
 ## ESEMPI
 Il file sample_single.asp offre un esempio pratici di utilizzo della classe
-in modalità di elaborazione singola.
+in modalita di elaborazione singola.
  
-## LICENZA
-'# Copyright (c) 2004-2008 Simone Cingano
+## LICENZA MIT
+'# Copyright (c) 2004-2015 Simone Cingano
 '# 
 '# Permission is hereby granted, free of charge, to any person
 '# obtaining a copy of this software and associated documentation
