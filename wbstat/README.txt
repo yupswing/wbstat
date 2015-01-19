@@ -1,6 +1,6 @@
 '####################################################################################################
 '### WBSTAT statistic class ###
-'#  Classe: WBstat v4.4dev
+'#  Classe: WBstat v4.4
 '#  Autore: Simone Cingano (http://simonecingano.it)
 '#  Email:  simonecingano@gmail.com
 '####################################################################################################

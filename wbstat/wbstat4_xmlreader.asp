@@ -2,7 +2,7 @@
 '####################################################################################################
 '### WBSTAT xmlreader class ###
 '#
-'# * @info		      wbStat 4.4dev
+'# * @info		      wbStat 4.4
 '# * @author          Simone Cingano <simonecingano@gmail.com>
 '# * @copyright       2002-2015 Simone Cingano
 '# * @license         http://www.opensource.org/licenses/mit-license.php
